@@ -2,7 +2,7 @@
 
 ## Visualization + Linear Regression (R → Python Bridge)
 
-**Submission:** Jupyter Notebook (.ipynb)\
+**Submission:** Jupyter Notebook (.ipynb) in Github + attach to Team \
 **Dataset:** housing.csv\
 **Focus:** Interpretation \> Syntax
 
