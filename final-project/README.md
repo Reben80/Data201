@@ -226,12 +226,6 @@ Answer the following questions:
 2. Which model was easiest to explain?
 3. Which model would you choose in a real-world setting and why?
 
-End your project with:
-
-# “Winner of the Model Battle”
-
-and briefly defend your choice.
-
 ---
 
 # Video Presentation Requirement
@@ -264,11 +258,9 @@ You are NOT expected to create a highly edited video.
 Submit:
 - Jupyter Notebook (`.ipynb`)
 - PDF export of notebook
-- Presentation slides (if used)
 - Video presentation
-- Dataset citation/source
 
-Submit your notebook link through Teams.
+Submit your notebook+vide link through Teams.
 
 ---
 
@@ -286,17 +278,3 @@ Perfect prediction accuracy is NOT expected.
 
 ---
 
-# Final Advice
-
-This project emphasizes:
-- interpretation
-- comparison
-- communication
-
-more than advanced model tuning.
-
-A strong project:
-- asks good questions
-- explains models clearly
-- interprets results honestly
-- communicates findings effectively
