@@ -1,5 +1,5 @@
 # DATA 201 – Final Project  
-# The  Model Battle: One Tree vs. Many Trees
+# The Local Model Battle: One Tree vs. Many Trees
 
 ## Final Project Theme
 In this project, you will investigate an important question in modern Data Science and Machine Learning:
@@ -88,6 +88,8 @@ You MUST build and compare the following models:
 | Random Forest Regressor | Yes |
 | Gradient Boosting Regressor | Yes |
 
+You may use default sklearn settings for the models.
+
 Optional bonus models:
 - AdaBoost
 - Bagging Regressor
@@ -96,14 +98,26 @@ Optional bonus models:
 
 ---
 
+# Suggested Workflow
+
+1. Choose a dataset
+2. Clean and prepare the data
+3. Train a Decision Tree model
+4. Train Random Forest and Gradient Boosting models
+5. Compare model performance
+6. Reflect on model tradeoffs
+7. Record your presentation video
+
+---
+
 # Project Sections
 
 # 1. Introduction
 
-Write 1–2 paragraphs describing:
+Write a short introduction describing:
 - Your dataset
 - Your prediction goal
-- Why the problem is interesting or important
+- Why the topic is interesting or important
 - Possible limitations or bias in the dataset
 
 Include a citation for your dataset source.
@@ -126,7 +140,7 @@ Include at least one table describing variables.
 # 3. Exploratory Data Analysis
 
 Create:
-- 2–4 visualizations
+- **2 meaningful visualizations**
 - Short interpretations
 
 Discuss:
@@ -144,8 +158,8 @@ This is the most important section of the project.
 
 You must:
 - Train a Decision Tree Regressor
-- Experiment with tree depth
-- Explain possible overfitting
+- Try at least **two different tree depths**
+- Briefly discuss possible overfitting
 - Include a visualization or diagram of your tree
 
 Also explain:
@@ -172,7 +186,8 @@ Discuss:
 - Did performance improve?
 - Which model generalized better?
 - Which model was easier to explain?
-- Did ensembles reduce overfitting?
+
+You are NOT expected to perform advanced hyperparameter tuning.
 
 ---
 
@@ -188,7 +203,7 @@ You must include:
 Include:
 - A comparison table
 - Actual vs Predicted visualization
-- Interpretation of results
+- Short interpretation of results
 
 ---
 
@@ -196,7 +211,7 @@ Include:
 
 For at least one ensemble model:
 - Display feature importance
-- Identify the most influential features
+- Identify the top 3 most important features
 
 Important:
 - Feature importance does NOT prove causation
@@ -208,10 +223,8 @@ Important:
 Answer the following questions:
 
 1. Which model performed best?
-2. Which model was easiest to interpret?
-3. Was higher accuracy worth losing interpretability?
-4. If this were a real-world organization or local agency, which model would you choose and why?
-5. What limitations does your analysis have?
+2. Which model was easiest to explain?
+3. Which model would you choose in a real-world setting and why?
 
 End your project with:
 
@@ -240,9 +253,9 @@ Your video should explain:
 4. Which model performed best
 5. One interesting insight or challenge
 
-The goal is to communicate your findings clearly and professionally.
+The presentation may be informal and conversational.
 
-You do NOT need advanced editing.
+You are NOT expected to create a highly edited video.
 
 ---
 
@@ -275,7 +288,12 @@ Perfect prediction accuracy is NOT expected.
 
 # Final Advice
 
-A strong project is not the one with the most complicated code.
+This project emphasizes:
+- interpretation
+- comparison
+- communication
+
+more than advanced model tuning.
 
 A strong project:
 - asks good questions
